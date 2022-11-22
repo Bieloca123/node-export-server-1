@@ -13,7 +13,7 @@
     "preinstall": "node ./pre.build.js",
     "postinstall": "node ./post.build.js",
     "install": "node ./build.js",
-    "start": "npx highcharts-export-server@2.1.0 start -enableServer 1 -enableServer 1 --nologo 1 --logLevel 4"
+    "start": "npx highcharts-export-server@2.1.0 start -enableServer 1 -enableServer 1 --nologo 1 --logLevel 4 -p ${PORT}"
   },
   "main": "lib/index.js",
   "license": "MIT",
