@@ -13,7 +13,7 @@
     "preinstall": "node ./pre.build.js",
     "postinstall": "node ./post.build.js",
     "install": "node ./build.js",
-    "start": "highcharts-export-server -enableServer 1 -port ${PORT}"
+    "start": "highcharts-export-server --enableServer 1 -port ${PORT}"
   },
   "main": "lib/index.js",
   "license": "MIT",
